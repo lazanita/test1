@@ -23,7 +23,7 @@ public class Main {
         } catch (NumberFormatException e) {
             throw new ConditionException();
         }
-        if ((count!=1)||((a <= 0 || a > 11)||(b <= 0 || b> 11))) {
+        if ((count!=1)||((a <= 0 || a > 10)||(b <= 0 || b> 10))) {
             throw new ConditionException();
         }
         int result = 0;
